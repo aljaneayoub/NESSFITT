@@ -1,0 +1,142 @@
+html{
+    scroll-behavior:smooth;
+    
+  }
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(24, 39, 34, 0.0)0%, rgba(24, 39, 34, 0.3)25%, rgba(24, 39, 34, 0.6)50%, rgba(24, 39, 34, 0.7)75%,rgba(24, 39, 34, 0.8)90%,rgba(24, 39, 34, 0.9)95%), url("../images/hero.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  .hero .hero-text{
+    margin-bottom: 20px;
+    margin-left:55%;
+    font-family: 'Termina',sans-serif ;
+    font-size: 7vh;
+    color: #fff;
+
+
+  }
+  .hero button {
+    background-color: #00ff8800;
+    border: 1px solid #00ff87 ;
+    border-color: #00ff87;
+    color: #fff;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 70vh ;
+    margin-right: 5vw;
+
+    
+    
+
+  }
+  .hero button:hover{
+    background-color: #fff;
+    color: #00ff87;
+  }
+  .flash{
+    height: 100vh;
+    width: 100vw;
+
+  }
+  .flash .back-flash{
+    height: 10vh;
+    width: 100%;
+    background-color: #182722;
+    
+  }
+  .flash .back-flash b{
+    font-family: 'Termina',sans-serif;
+    color: #00ff87;
+    font-size: x-large;
+    margin-left: 1%;
+  }
+  .flash ul{
+    display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    height: 40%;
+    width: 100vw;
+  }
+  .flash .card {
+    display: inline-flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left:1%;
+    margin-right: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 17%;
+    height: 35vh;
+    cursor: pointer;
+  }
+
+  
+  .flash .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  }
+  
+  .flash .container {
+    padding-right: 7%;
+  }
+
+  .flash  .container .promo {
+    background-color: #fd7e14;
+    width: 82px;
+    height: 25px;
+    color: #000;
+    font-size: 5 px;
+    border-radius: 32px;
+    border: 1px solid #fd7e14;
+  }
+  .flash .top-back{
+    height: 10vh;
+    width: 100%;
+    background-color: #182722;
+  }
+  .flash .top-back b{
+    font-family: 'Termina',sans-serif;
+    color: #00ff87;
+    font-size: x-large;
+    margin-left: 20px;
+  }
+
+
+  .marquee-container {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+
+  }
+  
+  .marquee img {
+    width: 10vw;
+    height: auto;
+    margin-right: 20vw;
+    margin-top: 10vh;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(-50%);
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.footer{
+
+    background-color: #182722;
+    height: 35vh;
+    width: 100vw;
+    display: inline-flex;
+ }
+ .footer ul {
+   display: flex;
+   margin-top:3%;
+ 
+ }
+ .footer .part-logo{
+   height: 25vh;
+   width: 33vw;
+   border-right: #f7f7f7 solid 1px;
+   list-style: none;
+
+   
+ }
+ .footer-logo{
+   height: 35vh;
+   width: 22vw;
+   margin-top: -11%;
+   cursor: pointer;
+ }
+ .footer-logo:hover{
+   opacity: 0.7;
+   transition: all 0.5s ease 0s;
+ 
+ }
+ .footer .part-item{
+   height: 25vh;
+   width: 33vw;
+   border-right: #f7f7f7 solid 1px;
+   color: #f7f7f7;
+   padding-top: 50px;
+   text-align: center;
+   list-style: none;
+
+ 
+   
+ }
+ .footer .item{
+   color:#f7f7f7;
+   text-decoration: none;
+
+ }
+ .footer .item:hover{
+   color:#00ff87;
+ }
+ .footer .made{
+   color:#f7f7f7;
+   padding-left:15px;
+ }
+ 
+ .footer .part-contact{
+   color: #f7f7f7;
+   max-width: 29vw;
+   height: 25vh;
+   padding-left: 5vw;
+   padding-top: 50px;
+   list-style: none;
+   
+
+ 
+ }
+ .footer a{
+   color:#f7f7f7;
+   text-decoration: none;
+
+ }
+ .footer a:hover{
+   color:#00ff87;
+ }
+ 

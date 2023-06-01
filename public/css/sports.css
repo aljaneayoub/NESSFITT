@@ -1,0 +1,168 @@
+ 
+ .zone{
+    height:52% ;
+    width: 100%;
+    
+  }
+  .zone .text-zone{
+    background-color: #182722;
+    height:32vh ;
+    width: 100%;
+    
+  }
+  .zone .text{
+    color:#f7f7f7;
+    font-family: 'Termina',Fantasy;
+    font-size: 7vh;
+  
+  } 
+  .zone b{
+    color:#00ff87;
+
+  }
+  .zone .image-sport{
+    width: 100%;
+    height: 23vh;
+    
+    
+  }
+ 
+ /*products*/
+ 
+ .product{
+    width:100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  .product .text-zone{
+    background-color: #182722;
+    height:10vh;
+    width: 100%;
+    
+  }
+  .product .text-zone .text{
+    color:#00ff87;
+    font-family: 'Termina',sans-serif;
+    font-size: x-large;
+    margin-left: 3vh;
+  }
+  /*products cards*/
+  .product .cards {
+    display: inline-flex;
+    margin-top:1%;
+    width: 100vw;
+    height: 50vh;
+    
+  }
+  .product .cards .card {
+    display: inline-flex;
+    margin-right: .5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 32.6vw;
+    height: 40vh;
+  }
+  
+  .product .cards .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  }
+  
+  .product .cards .container {
+    padding: 2vh 4vh;
+  }
+
+  .product .cards .container .add-to-cart-btn {
+    background-color: #fd7e14;
+    width: 80px;
+    height: 25px;
+    color: #000;
+    font-size: 5 px;
+    border-radius: 32px;
+    border: 1px  #000;
+    margin-top: 2vh;
+    margin-left: 3%;
+    cursor: pointer;
+
+  }
+  .product .cards .card button{
+    color: #fd7e14;
+    background-color: #fcae6fa9;
+    width: 150px;
+    height: 20px;
+    border: 5px  #fd7e14;
+    border-radius: 32px;
+
+  
+
+
+  }
+  .product .cards .card img {
+    transition: transform .5s, filter .5s ease-in-out;
+    filter: grayscale(100%);
+    
+  }
+  .product .cards .card img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+  .brands {
+    width:100vw;
+    height: 100vh;
+  }
+  .brands .text-zone{
+    height: 15vh;
+    width: 100vw;
+    background-color: #182722;
+  }
+  .brands  b{
+    color:#00ff87;
+    font-family: 'Termina',sans-serif;
+    font-size: xx-large;
+    margin-left: 20px;
+  }
+  .brands ul{
+    display: inline-flex;
+    height: 23%;
+    width: 100vw;
+        list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+  }
+  /* ul {
+
+  } */
+  
+  .brands ul li{
+    margin-top: 1%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    cursor: pointer;
+    margin-right: 10%;
+    width: 20%;
+  }
+  .brands ul li img{
+    transition: transform .5s, filter .5s ease-in-out;
+    filter: grayscale(100%);
+
+
+  }
+  .brands ul li:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    background-color: rgba(24, 39, 34, 0.959);
+    filter: blur(5px);
+
+
+  }
+  .brands ul li img:hover{
+    filter: grayscale(0);
+    transform: scale(0.9);
+  }
+  
+  img {
+    width: 50%;
+  }

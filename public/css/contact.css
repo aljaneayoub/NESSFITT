@@ -1,0 +1,62 @@
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("../images/background.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .send .box-send{
+   background-color: #fff;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+   transition: 0.3s;
+   cursor: pointer;
+   width: 37%;
+   height: 70%;
+}
+.send .box-send .input {
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight:500;
+   font-size: 18px;
+   background-color: #fff;
+   border-top: #000;
+   border-left: #000;
+   border-right: #000;
+   border-bottom:2px solid #182722;
+   transition: all 0.3s;
+   padding: 4%;
+   margin-bottom: 5%;
+   width:70%;
+   box-sizing: border-box;
+   outline:0;
+   margin-left: 15%;
+}
+.send .box-send .input:focus{
+   border-bottom:2px solid #00ff87;
+
+}
+textarea {
+   height: 25%;
+   line-height: 150%;
+   resize:none;
+}
+.send .box-send button{
+   margin-left: 42%;
+   background-color: #182722;
+   border: 1px solid #f7f7f7;
+   color: #f7f7f7;
+   width: 20%;
+   height: 7%;
+   border-radius: 1px;
+   font-size:75%;
+   cursor: pointer;
+
+}
+.send .box-send button:hover{
+   opacity: 0.9;
+   transition: 0.7s;
+}
